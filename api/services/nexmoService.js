@@ -18,7 +18,7 @@ function triggerMessage(toNumber ,msg){
 	        if(responseData.messages[0]['status'] === "0") {
 	        	winston.log('info', 'Message sent successfully');
 	        } else {
-	            winston.log('info','Message failed with error: ' + ${responseData.messages[0]['error-text']});
+	            winston.log('info','Message failed with error: ' + responseData.messages[0]['error-text']);
 	        }
 	    }
 	})
