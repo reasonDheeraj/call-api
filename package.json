@@ -1,0 +1,22 @@
+{
+  "name": "call-api",
+  "version": "1.0.0",
+  "description": "Trigger automated calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sharma Dheeraj",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nexmo": "^2.4.1",
+    "twilio": "^3.33.4",
+    "winston": "^3.2.1"
+  }
+}
